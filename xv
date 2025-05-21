@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Convite de Aniversário - Maria Eduarda</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #f9f6f2;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .convite-container {
+      max-width: 500px;
+      margin: 40px auto;
+      background: #fff;
+      border-radius: 18px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.07);
+      padding: 32px 24px;
+      text-align: center;
+    }
+    .convite-container img {
+      width: 100%;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      color: #c6538c;
+      margin-bottom: 10px;
+    }
+    .destaque {
+      font-size: 1.1em;
+      color: #7c3aed;
+      margin-bottom: 24px;
+    }
+    a.botao {
+      display: inline-block;
+      margin: 12px 8px;
+      padding: 12px 24px;
+      background: #7c3aed;
+      color: #fff;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.2s;
+    }
+    a.botao:hover {
+      background: #c6538c;
+    }
+    .mensagem {
+      font-style: italic;
+      color: #555;
+      margin: 24px 0 16px 0;
+    }
+    @media (max-width: 600px) {
+      .convite-container {
+        padding: 18px 6px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="convite-container">
+    <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=600&q=80" alt="Festa de aniversário">
+    <h1>Convite de Aniversário</h1>
+    <div class="destaque">
+      Maria Eduarda vai fazer aniversário!<br>
+      Venha comemorar esse dia especial conosco!
+    </div>
+    <p>
+      <strong>Data:</strong> 15 de Junho de 2025<br>
+      <strong>Horário:</strong> 18h<br>
+      <strong>Local:</strong>
+      <a href="https://www.google.com/maps?q=R.+das+Orquídeas,+123+-+Centro,+Cidade/UF" target="_blank">
+        Salão de Festas do Edifício Jardim das Flores
+      </a>
+    </p>
+    <a class="botao" href="https://forms.gle/exemploformulario" target="_blank">Confirmar Presença</a>
+    <a class="botao" href="https://www.americanas.com.br/lista-de-presentes/exemplo" target="_blank">Lista de Presentes</a>
+    <div class="mensagem">
+      “Estou muito feliz em comemorar mais um ano de vida ao lado das pessoas que amo. Sua presença vai tornar esse dia ainda mais especial!”
+    </div>
+    <p>
+      Conto com você!<br>
+      <strong>Maria Eduarda</strong>
+    </p>
+  </div>
+</body>
+</html>
